@@ -1,1 +1,1 @@
-web:guinicorn app:PeriodicSimAPI
+web:gunicorn app:PeriodicSimAPI
