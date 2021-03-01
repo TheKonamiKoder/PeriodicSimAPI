@@ -505,6 +505,29 @@
 					"bond": "ionic"
 				}
 			]
+		},
+		{
+			"name": "sodium hydroxide",
+			"chemicalFormula": "NaOH",
+			"colour": "Yellow",
+			"info": "Sodium hydroxide, also known as caustic soda or lye, is a highly versatile substance used in a variety of manufacturing processes.",
+			"components": [
+				[ "sodium", 1 ],
+				[ "oxygen", 2 ],
+				[ "hydrogen", 1 ]
+			],
+			"connections": [
+				{
+					"connector": "sodium",
+					"connected": "oxygen",
+					"bond": "ionic"
+				},
+				{
+					"connector": "oxygen",
+					"connected": "hydrogen",
+					"bond": "convalent"
+				}
+			]
 		}
 	],
 "mixtures": [
@@ -529,7 +552,11 @@
     {
       "reactants": [ "sodium chloride", "water" ],
       "products": [ "saltwater" ]
-    }
+    },
+    {
+      "reactants": [ "sodium hydroxide", "hydrochloric acid" ],
+      "products": [ "sodium chloride", "water" ]
+    },
   ],
 "molecules": [
     {
