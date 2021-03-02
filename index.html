@@ -189,6 +189,46 @@
 			]
 		},
 		{
+			"name": "carbon monoxide",
+			"chemicalFormula": "CO",
+			"colour": "blue",
+			"info": "Carbon monoxide is a toxic gas that can appear in homes, which is why many people have a carbon monoxide alarm along with a smoke alarm.",
+			"components": [
+				["carbon", 1],
+				["oxygen", 1]
+			],
+			"connections": [
+				{
+					"connector": "carbon",
+					"connected": "oxygen",
+					"bond": "convalent"
+				}
+			]
+		},
+		{
+			"name": "nitrous oxide",
+			"chemicalFormula": "N2O",
+			"colour": "Brown",
+			"info": "Nitrous oxide is more commonly known as laughing gas and is used in hospitals as pain relief during an operation.",
+			"components": [
+				["oxygen", 2],
+				["nitrogen", 1],
+				["nitrogen", 1]
+			],
+			"connections": [
+				{
+					"connector": "oxygen",
+					"connected": "nitrogen",
+					"bond": "convalent"
+				},
+				{
+					"connector": "oxygen",
+					"connected": "nitrogen",
+					"bond": "convalent"
+				}
+			]
+		},
+		{
 			"name": "hydrogen peroxide",
 			"chemicalFormula": "H2O2",
 			"colour": "Tomato",
@@ -283,7 +323,7 @@
 			"info": "Sodium chlorine (commonly known as salt) is a colourless or white crystalline compound, used in the preservation of food and seasoning.",
 			"components": [
 				[ "sodium", 1 ],
-				[ "sodium", 1 ]
+				[ "chlorine", 1 ]
 			],
 			"connections": [
 				{
